@@ -2,13 +2,17 @@
   "name": "selenium-sandbox",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
+    "start": "electron src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Corbin M",
   "license": "ISC",
   "dependencies": {
     "selenium-webdriver": "^4.7.0"
+  },
+  "devDependencies": {
+    "electron": "^22.0.0"
   }
 }
